@@ -1,7 +1,6 @@
 const express = require('express');
 const mongoose = require("mongoose")
 const passport = require('passport')
-const flash = require('connect-flash')
 const session = require('express-session')
 const cors = require("cors");
 require('./passport')(passport) // get all need dependencies and requires passport
